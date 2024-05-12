@@ -1,0 +1,55 @@
+<html>
+<head>
+<style>
+.color-block, .icon-block {
+	margin: 20px;
+	padding: 10px;
+	position: relative;
+	float: left;
+	background: #8ec12d;
+	color: yellow;
+	text-align:center;
+}
+.icon-block {
+	font-family: cursive;
+	font-size:80px;
+	width: 120px;
+	height: 120px;
+}
+.light-rounded {
+	border-radius: 3px;
+}
+.full-rounded {
+	border-radius: 50%;
+}
+.inline-link {
+	margin: 0 0.2em;
+	padding: 3px;
+	background: #97CAF2;
+	border-radius: 2px;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+}
+.inline-link:hover {
+	background: #53A7EA
+}
+.color-block a, .color-block h1{
+	color: white;
+}
+.color-block a:hover {
+	color: yellow;
+}
+</style>
+</head>
+<body>
+	<div class="color-block light-rounded">Some Text In The Middle</div>
+	<div class="icon-block full-rounded">!</div>
+	<div>
+		<h1>This is a heading</h1>
+		<!-- Inline -->
+		Просто какой-то текст и <a href="#" class="inline-link">ссылка</a> среди текста. 
+		<!-- Block -->
+		<p><a href="#">Ссылка без стилей</a></p>
+	</div>
+</body>
